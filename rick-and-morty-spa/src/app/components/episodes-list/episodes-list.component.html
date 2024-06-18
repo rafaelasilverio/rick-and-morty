@@ -1,0 +1,11 @@
+<div class="listagem">
+  @for(episode of episodes; track $index){
+      <app-episode-card [episode]="episode" (viewDetails)="openEpisodeDetails($event)"></app-episode-card>
+  }
+</div>
+<app-button-load-more 
+  [More]="MoreEpisodes"
+  (click)="loadMoreEpisodes()"
+>
+</app-button-load-more>
+

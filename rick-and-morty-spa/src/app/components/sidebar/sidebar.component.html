@@ -1,0 +1,11 @@
+<mat-drawer-container class="container">
+    <mat-drawer class="sidebar" mode="side" opened>
+            <mat-nav-list>
+              <a mat-list-item [routerLink]="['/characters']">Personagens</a>
+              <a mat-list-item [routerLink]="['/episodes']">Episódios</a>
+            </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content class="conteudo">
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>

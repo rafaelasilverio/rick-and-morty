@@ -1,0 +1,26 @@
+header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    cursor: pointer;
+}
+
+.searchbar{
+    width: 100vh;
+    padding: 10px;
+    background-color: #abb2bf;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+}

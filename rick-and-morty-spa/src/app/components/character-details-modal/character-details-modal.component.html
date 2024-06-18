@@ -1,0 +1,11 @@
+@if(character){
+    <mat-dialog-content>
+            <h1 mat-dialog-title>{{ character.name }}</h1>
+            <img [src]="character.image" alt="Imagem do personagem">
+            <p>Status: {{ character.status }}</p>
+            <p>Espécie: {{ character.species }}</p>
+            <p>Gênero: {{ character.gender }}</p>
+            <p>Origem: {{ character.origin.name }}</p>
+            <p>Localização: {{ character.location.name }}</p>
+    </mat-dialog-content>
+}

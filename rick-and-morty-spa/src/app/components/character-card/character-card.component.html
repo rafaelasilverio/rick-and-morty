@@ -1,0 +1,9 @@
+<mat-card class="character-card" appearance="outlined">
+    <img mat-card-image [src]="character.image" alt="Imagem do personagem">
+    <div class="card-title">
+      <mat-card-title>{{ character.name }}</mat-card-title>
+    </div>
+    <mat-card-actions>
+        <button mat-button (click)="onViewDetails()">Ver detalhes</button>
+    </mat-card-actions>
+</mat-card>

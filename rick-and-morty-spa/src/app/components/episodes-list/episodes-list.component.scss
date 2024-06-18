@@ -1,0 +1,12 @@
+.listagem{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.loading-indicator {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }

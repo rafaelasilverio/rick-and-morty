@@ -1,0 +1,10 @@
+<div class="listagem">
+  @for(character of characters; track $index){
+    <app-character-card [character]="character"  (viewDetails)="openCharacterDetails($event)"></app-character-card>
+  }
+</div>
+<app-button-load-more 
+  [More]="MoreCharacters"
+  (click)="loadMoreCharacters()"
+>
+</app-button-load-more>
